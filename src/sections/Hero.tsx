@@ -1,15 +1,23 @@
-function App() {
+export default function Hero() {
   return (
-    <main style={{ padding: "2rem" }}>
+    <section>
       <h1>Nompilo Mchunu</h1>
 
       <h2>Career Vision Board 2026</h2>
 
-      <p>Cloud Learnership Participant</p>
+      <p>
+        From Exploration to Clarity.
+      </p>
 
-      <p>Future Solutions Architect Specialist</p>
-    </main>
+      <p>
+        From Cloud Learnership Participant to Solutions Architect
+        Specialist.
+      </p>
+
+      <p>
+        A journey defined by resilience, continuous learning,
+        meaningful relationships, and a passion for cloud technology.
+      </p>
+    </section>
   );
 }
-
-export default App;

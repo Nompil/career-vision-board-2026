@@ -4,19 +4,40 @@ export default function SkillsNeeded() {
       <h2>Skills Needed</h2>
 
       <p>
-        To succeed as a Solutions Architect Specialist, I need to continuously
-        develop both technical and professional skills.
+        Becoming a Solutions Architect Specialist requires a balance of
+        technical expertise, business understanding, and strong
+        interpersonal skills.
       </p>
+
+      <h3>Technical Skills</h3>
 
       <ul>
         <li>AWS Cloud Architecture</li>
-        <li>Cloud Security & Governance</li>
-        <li>System Design</li>
-        <li>Problem Solving</li>
-        <li>Stakeholder Management</li>
-        <li>Communication & Presentation Skills</li>
-        <li>Leadership & Mentoring</li>
+        <li>Cloud Security and Governance</li>
+        <li>System Design and Integration</li>
+        <li>Infrastructure as Code</li>
+        <li>Networking Fundamentals</li>
+        <li>Cost Optimisation</li>
+        <li>Solution Design Patterns</li>
       </ul>
+
+      <h3>Professional Skills</h3>
+
+      <ul>
+        <li>Communication and Presentation Skills</li>
+        <li>Stakeholder Management</li>
+        <li>Strategic Thinking</li>
+        <li>Problem Solving</li>
+        <li>Leadership and Mentorship</li>
+        <li>Collaboration and Teamwork</li>
+      </ul>
+
+      <p>
+        I understand that technical skills may open doors, but strong
+        communication, leadership, and relationship-building skills will
+        allow me to create greater impact and grow into an effective
+        Solutions Architect.
+      </p>
     </section>
   );
 }
