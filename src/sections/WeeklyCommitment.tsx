@@ -1,6 +1,6 @@
 export default function WeeklyCommitment() {
   return (
-    <section>
+    <section id="weekly">
       <h2>My Commitment This Week</h2>
 
       <p>

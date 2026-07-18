@@ -11,11 +11,13 @@ import CareerTimeline from "./sections/CareerTimeline";
 import WeeklyCommitment from "./sections/WeeklyCommitment";
 import ProfessionalHighlights from "./sections/ProfessionalHighlights";
 import QuoteCard from "./components/QuoteCard";
+import NavToc from "./components/NavToc";
 
 
 function App() {
   return (
     <>
+      <NavToc />
       <Hero />
       <QuoteCard />
       <AboutMe />

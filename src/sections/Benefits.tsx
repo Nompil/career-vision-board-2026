@@ -1,6 +1,6 @@
 export default function Benefits() {
   return (
-    <section>
+    <section id="benefits">
       <h2>Benefits of This Career</h2>
 
       <p>

@@ -1,6 +1,6 @@
 export default function DreamCareer() {
   return (
-    <section>
+    <section id="dream" className="dream-career reveal" data-delay="0.06">
       <h2>My Dream Career</h2>
 
       <p>
@@ -12,23 +12,18 @@ export default function DreamCareer() {
       <p>
         What draws me to this career is the opportunity to combine
         technology, problem-solving, leadership, and continuous learning.
-        I enjoy understanding how different systems work together and how
-        technology can be used to improve the lives of people and the
-        success of organisations.
       </p>
 
-      <ul>
-        <li>Design enterprise cloud solutions</li>
-        <li>Bridge business and technology</li>
-        <li>Lead digital transformation initiatives</li>
-        <li>Influence strategic technology decisions</li>
-        <li>Mentor and support future technology professionals</li>
-      </ul>
+      <div className="card-grid">
+        <div className="card"><h4>Design enterprise cloud solutions</h4></div>
+        <div className="card"><h4>Bridge business and technology</h4></div>
+        <div className="card"><h4>Lead digital transformation initiatives</h4></div>
+        <div className="card"><h4>Influence strategic technology decisions</h4></div>
+        <div className="card"><h4>Mentor and support future technology professionals</h4></div>
+      </div>
 
       <p>
-        More importantly, this career aligns with who I am becoming:
-        someone who is curious, resilient, eager to learn, and committed
-        to creating value through technology.
+        More importantly, this career aligns with who I am becoming: someone who is curious, resilient, eager to learn, and committed to creating value through technology.
       </p>
     </section>
   );

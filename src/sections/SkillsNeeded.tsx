@@ -1,6 +1,6 @@
 export default function SkillsNeeded() {
   return (
-    <section>
+    <section id="skills" className="reveal" data-delay="0.05">
       <h2>Skills Needed</h2>
 
       <p>
@@ -9,28 +9,32 @@ export default function SkillsNeeded() {
         interpersonal skills.
       </p>
 
-      <h3>Technical Skills</h3>
+      <div className="card-grid">
+        <div className="card">
+          <h4>Technical Skills</h4>
+          <ul>
+            <li>AWS Cloud Architecture</li>
+            <li>Cloud Security and Governance</li>
+            <li>System Design and Integration</li>
+            <li>Infrastructure as Code</li>
+            <li>Networking Fundamentals</li>
+            <li>Cost Optimisation</li>
+            <li>Solution Design Patterns</li>
+          </ul>
+        </div>
 
-      <ul>
-        <li>AWS Cloud Architecture</li>
-        <li>Cloud Security and Governance</li>
-        <li>System Design and Integration</li>
-        <li>Infrastructure as Code</li>
-        <li>Networking Fundamentals</li>
-        <li>Cost Optimisation</li>
-        <li>Solution Design Patterns</li>
-      </ul>
-
-      <h3>Professional Skills</h3>
-
-      <ul>
-        <li>Communication and Presentation Skills</li>
-        <li>Stakeholder Management</li>
-        <li>Strategic Thinking</li>
-        <li>Problem Solving</li>
-        <li>Leadership and Mentorship</li>
-        <li>Collaboration and Teamwork</li>
-      </ul>
+        <div className="card">
+          <h4>Professional Skills</h4>
+          <ul>
+            <li>Communication and Presentation Skills</li>
+            <li>Stakeholder Management</li>
+            <li>Strategic Thinking</li>
+            <li>Problem Solving</li>
+            <li>Leadership and Mentorship</li>
+            <li>Collaboration and Teamwork</li>
+          </ul>
+        </div>
+      </div>
 
       <p>
         I understand that technical skills may open doors, but strong
