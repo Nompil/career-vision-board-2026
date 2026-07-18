@@ -19,8 +19,8 @@ function App() {
       <Hero />
       <QuoteCard />
       <AboutMe />
-      <ProfessionalHighlights />
       <MomentOfClarity />
+      <ProfessionalHighlights />
       <DreamCareer />
       <SkillsNeeded />
       <Benefits />
