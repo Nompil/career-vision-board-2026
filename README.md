@@ -13,3 +13,4 @@ The vision board explores:
 - A structured career roadmap
 
 The project demonstrates both career planning and technical initiative through the use of modern web technologies.
+
