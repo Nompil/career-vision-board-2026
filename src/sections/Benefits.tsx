@@ -42,6 +42,14 @@ export default function Benefits() {
         expertise, business understanding, and leadership to create
         solutions that genuinely make a difference.
       </p>
+
+      <p>
+        Beyond the technical opportunities and career growth, this path
+        gives me something even more valuable: purpose. It provides a space
+        where I can continuously challenge myself, solve meaningful
+        problems, and contribute to solutions that positively impact
+        organisations and the people they serve.
+      </p>
     </section>
   );
 }
