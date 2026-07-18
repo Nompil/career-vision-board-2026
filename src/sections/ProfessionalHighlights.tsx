@@ -9,38 +9,38 @@ export default function ProfessionalHighlights() {
         technical, analytical, and professional skills.
       </p>
 
-      <div className="card-grid">
-        <div className="card">
+      <div className="card-grid card-grid--highlights">
+        <div className="card card--highlight">
           <h4>Software Development Graduate</h4>
           <p>Built a strong foundation in software engineering principles, application development, problem-solving, and technology best practices.</p>
         </div>
 
-        <div className="card">
+        <div className="card card--highlight">
           <h4>Power BI & Data Analytics</h4>
           <p>Developed interactive Power BI dashboards using DAX to transform raw data into meaningful insights that support decision-making.</p>
         </div>
 
-        <div className="card">
+        <div className="card card--highlight">
           <h4>SharePoint & Power Automate</h4>
           <p>Designed and developed task & time-tracking solutions integrated with Power Automate to improve efficiency.</p>
         </div>
 
-        <div className="card">
+        <div className="card card--highlight">
           <h4>TrustCircle.com</h4>
           <p>Contributed to the design and delivery of TrustCircle.com, gaining end-to-end product experience from concept to deployment.</p>
         </div>
 
-        <div className="card">
+        <div className="card card--highlight">
           <h4>Cybersecurity Exposure</h4>
           <p>Gained exposure to security principles and practices to help build resilient solutions.</p>
         </div>
 
-        <div className="card">
+        <div className="card card--highlight">
           <h4>Multi-Disciplinary Exposure</h4>
           <p>Worked across cloud, automation, analytics, testing, and systems analysis to develop a broad technical perspective.</p>
         </div>
 
-        <div className="card">
+        <div className="card card--highlight">
           <h4>Cloud Learnership</h4>
           <p>Built foundational cloud knowledge and discovered a career path aligned to my strengths and aspirations.</p>
         </div>

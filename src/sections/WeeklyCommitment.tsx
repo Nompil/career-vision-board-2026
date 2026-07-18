@@ -1,6 +1,6 @@
 export default function WeeklyCommitment() {
   return (
-    <section id="weekly">
+    <section id="weekly" className="commitment-card reveal" data-delay="0.09">
       <h2>My Commitment This Week</h2>
 
       <p>
@@ -9,7 +9,7 @@ export default function WeeklyCommitment() {
         cloud computing and architecture.
       </p>
 
-      <ul>
+      <ul className="commitment-list">
         <li>Dedicate time to AWS Cloud learning and certification preparation.</li>
         <li>Strengthen my understanding of cloud architecture concepts.</li>
         <li>Engage with colleagues and professionals in the cloud space.</li>

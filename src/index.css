@@ -32,45 +32,45 @@ body {
 }
 
 main, section {
-  max-width: 1100px;
-  margin: 2rem auto;
-  padding: 1.25rem 1.5rem;
+  max-width: 980px;
+  margin: 1.5rem auto;
+  padding: 1rem 1.25rem;
 }
 
 h1 {
-  font-size: clamp(2.2rem, 4.4vw, 3.2rem);
+  font-size: clamp(1.9rem, 3.6vw, 2.8rem);
   font-weight: 700;
   color: var(--text);
   margin-bottom: 0.25rem;
 }
 
 h2 {
-  font-size: clamp(1.4rem, 2.2vw, 1.9rem);
+  font-size: clamp(1.25rem, 1.8vw, 1.6rem);
   font-weight: 600;
   color: var(--text);
-  margin-bottom: 0.75rem;
-}
-
-h3 {
-  font-size: 1.05rem;
-  color: var(--muted);
-  margin-top: 1rem;
   margin-bottom: 0.5rem;
 }
 
+h3 {
+  font-size: 1rem;
+  color: var(--muted);
+  margin-top: 0.6rem;
+  margin-bottom: 0.4rem;
+}
+
 p {
-  margin-bottom: 1rem;
+  margin-bottom: 0.8rem;
   color: var(--muted);
 }
 
 .quote-card {
   text-align: center;
-  padding: 4rem 2rem;
-  margin: 3rem auto;
-  border-radius: 24px;
+  padding: 3rem 1.5rem;
+  margin: 1.75rem auto;
+  border-radius: 18px;
   background: linear-gradient(135deg, #f8fbff 0%, #eef4ff 100%);
   border: 1px solid #d9e7ff;
-  box-shadow: 0 18px 45px rgba(15, 23, 42, 0.08);
+  box-shadow: 0 12px 32px rgba(15, 23, 42, 0.06);
 }
 
 .quote-card__intro {
@@ -149,15 +149,25 @@ tr th {
   justify-content: center;
   text-align: center;
   padding: 4rem 2rem;
+  background: linear-gradient(180deg, rgba(236,245,255,0.26), rgba(248,250,252,0.96));
+  border-radius: 28px;
 }
 
 .hero__inner {
   max-width: 820px;
 }
 
+.hero__inner h2 {
+  font-size: clamp(1.45rem, 3vw, 2.25rem);
+  font-weight: 600;
+  color: var(--text);
+  margin-top: 0.8rem;
+  letter-spacing: -0.02em;
+}
+
 .hero__subtitle {
   color: var(--muted);
-  margin-top: 0.5rem;
+  margin-top: 0.65rem;
 }
 
 .hero__meta {
@@ -184,7 +194,7 @@ tr th {
 /* Card system for highlights/skills */
 .card-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 1rem;
   margin-top: 1rem;
 }
@@ -192,9 +202,31 @@ tr th {
 .card {
   background: var(--card-bg);
   border-radius: var(--radius-md);
-  padding: 1rem 1.25rem;
+  padding: 1.2rem 1.4rem;
   box-shadow: var(--shadow-1);
   border: 1px solid var(--border);
+}
+
+.card--highlight {
+  display: grid;
+  align-items: start;
+  min-height: 190px;
+  border-top: 4px solid rgba(37,99,235,0.16);
+  padding-top: 1.25rem;
+}
+
+.card--highlight h4 {
+  font-size: 1.12rem;
+  letter-spacing: 0.01em;
+  margin-bottom: 0.95rem;
+  line-height: 1.2;
+  color: var(--text);
+}
+
+.card--highlight p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.75;
 }
 
 .card {
@@ -220,10 +252,29 @@ tr th {
   font-size: 0.95rem;
 }
 
+.skill-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 0.6rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skill-list li {
+  background: rgba(37,99,235,0.08);
+  color: var(--text);
+  padding: 0.65rem 0.85rem;
+  border-radius: 999px;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
 /* Timeline */
 .timeline {
   position: relative;
-  padding-left: 36px;
+  padding-left: 28px;
+  margin-top: 0.6rem;
 }
 
 .timeline::before {
@@ -239,8 +290,8 @@ tr th {
 
 .timeline-item {
   position: relative;
-  margin-bottom: 1.5rem;
-  padding: 0.6rem 0.75rem;
+  margin-bottom: 1.1rem;
+  padding: 0.4rem 0.6rem;
 }
 
 .timeline-item::before {
@@ -257,7 +308,9 @@ tr th {
 
 @media (max-width: 640px) {
   main, section { padding: 1.25rem; }
-  .hero { padding: 3.5rem 1rem; }
+  .hero { padding: 3.5rem 1rem; border-radius: 22px; }
+  .card-grid { gap: 0.95rem; }
+  .card--highlight { min-height: auto; padding-top: 1rem; }
 }
 
 /* Scroll reveal utility */
@@ -280,12 +333,46 @@ tr th {
   color: var(--text);
 }
 
+/* Hero large scale */
+.hero__inner h1 {
+  font-size: clamp(2.8rem, 8vw, 4.8rem);
+  line-height: 0.98;
+  margin-bottom: 0.35rem;
+}
+
+/* Moment of Clarity as a dark chapter */
+.moment-clarity.dark {
+  background: linear-gradient(180deg,#0f172a,#0b1220);
+  color: #fff;
+  padding: 3.25rem 1.5rem;
+  border-radius: 14px;
+  margin: 1.25rem auto;
+  text-align: center;
+}
+
+.moment-clarity.dark blockquote {
+  color: rgba(255,255,255,0.95);
+  font-size: clamp(1.5rem, 3.6vw, 2.4rem);
+  font-style: normal;
+  font-weight: 500;
+  opacity: 0.98;
+}
+
+.moment-clarity.dark h3 {
+  font-size: clamp(2.4rem, 6vw, 4rem);
+  color: #fff;
+  margin-top: 1.25rem;
+  letter-spacing: 0.16em;
+}
+
+.moment-clarity.dark p { color: rgba(255,255,255,0.86); }
+
 /* Timeline year badge */
 .timeline-item .year {
   display: inline-block;
   min-width: 72px;
   text-align: center;
-  padding: 0.35rem 0.6rem;
+  padding: 0.35rem 0.65rem;
   border-radius: 999px;
   background: linear-gradient(90deg, rgba(37,99,235,0.08), rgba(59,130,246,0.06));
   color: var(--accent);
@@ -293,15 +380,73 @@ tr th {
   margin-right: 0.75rem;
 }
 
+/* Commitment card */
+.commitment-card {
+  background: var(--card-bg);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border);
+  box-shadow: 0 20px 45px rgba(15,23,42,0.07);
+  padding: 1.5rem 1.75rem;
+  margin: 1rem 0;
+}
+
+.commitment-card h2 {
+  margin-bottom: 0.8rem;
+}
+
+.commitment-list {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 1.25rem;
+  display: grid;
+  gap: 0.75rem;
+}
+
+.commitment-list li {
+  position: relative;
+  padding-left: 1.65rem;
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.commitment-list li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  top: 0.1rem;
+  color: var(--accent);
+  font-weight: 700;
+}
+
 /* Letter/paper effect for Future Self */
 .future-self .letter {
   background: linear-gradient(180deg, #ffffff, #fbfdff);
   border: 1px solid var(--border);
-  padding: 1.25rem 1.5rem;
+  box-shadow: 0 24px 48px rgba(15,23,42,0.08);
+  padding: 1.5rem 1.75rem;
   border-radius: var(--radius-lg);
-  box-shadow: 0 18px 40px rgba(15,23,42,0.06);
   color: var(--muted);
-  line-height: 1.7;
+  line-height: 1.75;
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.future-self h2 {
+  margin-bottom: 1rem;
+}
+
+.future-self .letter p:first-of-type {
+  font-weight: 600;
+  color: var(--text);
+}
+
+.future-self .letter ul {
+  margin-top: 1rem;
+  padding-left: 1.5rem;
+}
+
+.future-self .letter ul li {
+  margin-bottom: 0.65rem;
 }
 
 .future-self .letter p:first-of-type { font-weight: 600; color: var(--text); }
@@ -327,6 +472,42 @@ tr th {
 .toc__link:hover { color: var(--accent); background: rgba(37,99,235,0.04); }
 .toc__link.active { color: var(--accent); background: rgba(37,99,235,0.08); font-weight: 600; }
 
+.toc-mobile {
+  display: none;
+}
+
+.toc-mobile__button {
+  display: none;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  color: var(--text);
+  border-radius: 999px;
+  padding: 0.85rem 1rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 10px 24px rgba(15,23,42,0.06);
+}
+
+.toc-mobile__panel {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 1rem;
+  margin-top: 0.85rem;
+  box-shadow: 0 18px 38px rgba(15,23,42,0.08);
+}
+
+.toc-mobile__panel ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.75rem;
+}
+
 @media (max-width: 900px) {
   .toc { display: none; }
+  .toc-mobile { display: block; position: sticky; top: 1rem; width: calc(100% - 2.5rem); margin: 0 auto 1rem; z-index: 80; }
+  .toc-mobile__button { display: inline-flex; width: 100%; justify-content: center; }
 }

@@ -12,6 +12,7 @@ import WeeklyCommitment from "./sections/WeeklyCommitment";
 import ProfessionalHighlights from "./sections/ProfessionalHighlights";
 import QuoteCard from "./components/QuoteCard";
 import NavToc from "./components/NavToc";
+import FutureVision from "./sections/FutureVision";
 
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
       <FutureSelf />
       <CareerTimeline />
       <WeeklyCommitment />
+      <FutureVision />
       
     </>
   );

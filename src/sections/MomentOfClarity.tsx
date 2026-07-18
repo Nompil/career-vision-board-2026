@@ -1,6 +1,6 @@
 export default function MomentOfClarity() {
   return (
-    <section id="moment" className="moment-clarity reveal" aria-label="Moment of clarity" data-delay="0.03">
+    <section id="moment" className="moment-clarity reveal dark" aria-label="Moment of clarity" data-delay="0.03">
       <blockquote>
         <p>
           "Do I really want to be here?"

@@ -9,10 +9,10 @@ export default function SkillsNeeded() {
         interpersonal skills.
       </p>
 
-      <div className="card-grid">
+      <div className="card-grid card-grid--skills">
         <div className="card">
           <h4>Technical Skills</h4>
-          <ul>
+          <ul className="skill-list">
             <li>AWS Cloud Architecture</li>
             <li>Cloud Security and Governance</li>
             <li>System Design and Integration</li>
@@ -25,7 +25,7 @@ export default function SkillsNeeded() {
 
         <div className="card">
           <h4>Professional Skills</h4>
-          <ul>
+          <ul className="skill-list">
             <li>Communication and Presentation Skills</li>
             <li>Stakeholder Management</li>
             <li>Strategic Thinking</li>
