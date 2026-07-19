@@ -1,4 +1,4 @@
-import benefitsImage from "../assets/images/Benefits of Earning the AWS Architect Certification.jpg";
+import benefitsImage from "../assets/images/Study Desk With Laptop Notebooks.jpg";
 
 export default function Benefits() {
   return (
@@ -57,7 +57,7 @@ export default function Benefits() {
         </div>
 
         <div className="section-panel__image">
-          <img src={benefitsImage} alt="Benefits of AWS architecture certification" />
+          <img src={benefitsImage} alt="Professional study desk and planning" />
         </div>
       </div>
     </section>

@@ -1,4 +1,4 @@
-import dreamImage from "../assets/images/Cloud Architect Sticker.jpg";
+import dreamImage from "../assets/images/my dream career.jpg";
 
 export default function DreamCareer() {
   return (
@@ -28,7 +28,7 @@ export default function DreamCareer() {
         </div>
 
         <div className="section-panel__image">
-          <img src={dreamImage} alt="Cloud Architect sticker" />
+          <img src={dreamImage} alt="Professional career planning" />
         </div>
       </div>
 

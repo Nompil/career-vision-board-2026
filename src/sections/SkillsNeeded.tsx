@@ -1,4 +1,4 @@
-import skillsImage from "../assets/images/skills needed.jpg";
+import skillsImage from "../assets/images/professional networking collaboration.jpg";
 
 export default function SkillsNeeded() {
   return (
@@ -49,7 +49,7 @@ export default function SkillsNeeded() {
         </div>
 
         <div className="section-panel__image">
-          <img src={skillsImage} alt="Skills growth and planning" />
+          <img src={skillsImage} alt="Professional collaboration and teamwork" />
         </div>
       </div>
     </section>

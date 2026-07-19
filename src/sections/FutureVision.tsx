@@ -24,8 +24,9 @@
         <article className="future-vision__card">
           <h3>Academic & Professional Growth</h3>
           <ul>
-            <li>Earn advanced AWS and cloud certifications.</li>
-            <li>Continue studying and pursuing further qualifications.</li>
+            <li>Earn AWS Certified Solutions Architect Professional certification by 2027.</li>
+            <li>Graduate with an advanced qualification in Computer Science by 2029.</li>
+            <li>Continue studying and pursuing further qualifications that support my growth in cloud computing, architecture, and technology leadership.</li>
             <li>Deepen my expertise in cloud architecture and solution design.</li>
             <li>Remain committed to lifelong learning.</li>
             <li>Stay current with emerging technologies and industry trends.</li>

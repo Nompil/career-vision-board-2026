@@ -1,8 +1,8 @@
-import cloudImage from "../assets/images/Cloud Computing.jpg";
+import cloudImage from "../assets/images/career excellence.jpg";
 import academicImage from "../assets/images/Study Desk With Laptop Notebooks.jpg";
-import financeImage from "../assets/images/financial planning investing notebook.jpg";
+import financeImage from "../assets/images/finance.jpg";
 import travelImage from "../assets/images/world travel map passport.jpg";
-import wellnessImage from "../assets/images/healthy lifestyle wellness balance.jpg";
+import wellnessImage from "../assets/images/Healthy life.jpg";
 import relationshipsImage from "../assets/images/professional networking collaboration.jpg";
 
 export default function VisionAtAGlance() {
@@ -38,7 +38,7 @@ export default function VisionAtAGlance() {
           </div>
         </article>
 
-        <article className="vision-card">
+        <article className="vision-card vision-card--accent">
           <div className="vision-card__image-wrap">
             <img src={academicImage} alt="Academic Growth" className="vision-card__image" />
             <span className="vision-card__label">Academic Growth</span>
@@ -46,8 +46,8 @@ export default function VisionAtAGlance() {
           <div className="vision-card__content">
             <h3>Academic Growth</h3>
             <p>
-              Build expertise through advanced study and certifications that
-              support real cloud architecture work.
+              Graduate with an advanced qualification in Computer Science by 2029 and
+              continue earning relevant cloud certifications.
             </p>
           </div>
         </article>
