@@ -5,22 +5,21 @@ export default function WeeklyCommitment() {
 
       <p>
         Every long-term goal begins with a small action. This week, I am
-        committing to taking deliberate steps toward my future career in
+        committing to focused steps that move me closer to my future in
         cloud computing and architecture.
       </p>
 
       <ul className="commitment-list">
         <li>Dedicate time to AWS Cloud learning and certification preparation.</li>
-        <li>Strengthen my understanding of cloud architecture concepts.</li>
-        <li>Engage with colleagues and professionals in the cloud space.</li>
-        <li>Ask questions, learn from others, and remain curious.</li>
-        <li>Continue building projects that strengthen my technical skills.</li>
+        <li>Deepen my understanding of cloud architecture concepts.</li>
+        <li>Connect with colleagues and professionals in the cloud space.</li>
+        <li>Ask questions, learn from others, and stay curious.</li>
+        <li>Build projects that strengthen my technical skills and confidence.</li>
       </ul>
 
       <p>
-        I understand that becoming a Solutions Architect Specialist will
-        not happen overnight. It will be the result of consistent effort,
-        continuous learning, and showing up every day with purpose.
+        I know becoming a Solutions Architect Specialist takes consistent effort,
+        continuous learning, and showing up each day with purpose.
       </p>
     </section>
   );

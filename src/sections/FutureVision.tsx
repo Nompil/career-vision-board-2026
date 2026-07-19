@@ -7,16 +7,15 @@
         </div>
 
         <p>
-          Becoming a Solutions Architect Specialist is not the final
-          destination. It is one important milestone in a lifelong journey
-          of growth, learning, leadership, and impact.
+          Becoming a Solutions Architect Specialist is an important milestone,
+          not the final destination. It is part of a lifelong journey of growth,
+          learning, leadership, and impact.
         </p>
 
         <p>
-          My vision extends beyond a job title. I want to continuously
-          develop myself academically, professionally, financially, and
-          personally while creating a meaningful life built on purpose and
-          growth.
+          My vision extends beyond a job title. I want to keep developing
+          academically, professionally, financially, and personally while
+          building a meaningful life rooted in purpose and growth.
         </p>
       </div>
 
