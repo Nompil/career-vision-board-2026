@@ -2,6 +2,9 @@ export default function FutureSelf() {
   return (
     <section id="future" className="future-self reveal" data-delay="0.07">
       <h2>A Letter From My Future Self</h2>
+      <p className="section-subtitle">
+        A short message from the version of you who has already grown into the cloud.
+      </p>
 
       <article className="letter">
         <p>Dear Nompilo,</p>

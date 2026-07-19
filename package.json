@@ -5,7 +5,7 @@
   "homepage": "https://nompil.github.io/career-vision-board-2026",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --port 5173 --strictPort",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",

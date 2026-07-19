@@ -1,18 +1,19 @@
 import { useState, useEffect } from 'react'
 
 const items = [
-  { id: 'hero', label: 'Hero' },
-  { id: 'moment', label: 'Moment' },
-  { id: 'about', label: 'About' },
-  { id: 'highlights', label: 'Highlights' },
-  { id: 'dream', label: 'Dream' },
-  { id: 'skills', label: 'Skills' },
-  { id: 'benefits', label: 'Benefits' },
-  { id: 'impact', label: 'Impact' },
+  { id: 'hero', label: 'Welcome' },
+  { id: 'vision-at-a-glance', label: 'Vision Snapshot' },
+  { id: 'moment', label: 'Clarity Moment' },
+  { id: 'about', label: 'About Me' },
+  { id: 'highlights', label: 'Key Highlights' },
+  { id: 'dream', label: 'Dream Career' },
+  { id: 'skills', label: 'Skills Needed' },
+  { id: 'benefits', label: 'Career Benefits' },
+  { id: 'impact', label: 'Impact Plan' },
   { id: 'relationships', label: 'Relationships' },
   { id: 'future', label: 'Future Self' },
-  { id: 'timeline', label: 'Timeline' },
-  { id: 'weekly', label: 'Weekly' },
+  { id: 'timeline', label: 'Career Timeline' },
+  { id: 'weekly', label: 'Weekly Plan' },
 ]
 
 export default function NavToc() {
@@ -30,10 +31,15 @@ export default function NavToc() {
   return (
     <>
       <nav className="toc" aria-label="Table of contents">
+        <div className="toc__title">Board sections</div>
+
         <ul>
           {items.map((it) => (
             <li key={it.id}>
-              <a className="toc__link" href={`#${it.id}`}>{it.label}</a>
+              <a className="toc__link" href={`#${it.id}`}>
+                <span className="toc__icon" aria-hidden="true"></span>
+                {it.label}
+              </a>
             </li>
           ))}
         </ul>
